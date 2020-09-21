@@ -4,6 +4,9 @@ import image from '../../image/DSC_2181.JPG';
 import clsx from 'clsx';
 import Container from '@material-ui/core/Container';
 import Grid from '@material-ui/core/Grid';
+import Button from '@material-ui/core/Button';
+import JSicon from '../../image/JS.png';
+import Link from '@material-ui/core/Link';
 // import { connect } from 'react-redux';
 // import { reduxSelector, reduxActionCreator } from '../../../redux/exampleRedux.js';
 
@@ -16,12 +19,27 @@ const Component = ({className, children}) => (
         <img src={image} alt="Ewelina" className={styles.image}></img>
       </Grid>
       <Grid item xs={12} sm={6}>
+        <h2 className={styles.name}>Front-end Developer</h2>
         <h2 className={styles.name}>Ewelina Mazurek</h2>
       </Grid>
       <Grid item md={12}>
         <h1>Skills</h1>  
       </Grid>
-      
+      <Grid item xs={12} sm={4}>
+        <Button className={styles.button} component={Link}>
+          <img src={JSicon} alt='JS'/>
+        </Button>
+      </Grid>
+      <Grid item xs={12} sm={4}>
+        <Button className={styles.button} component={Link}>
+          <img src={JSicon} alt='JS'/>
+        </Button>
+      </Grid>
+      <Grid item xs={12} sm={4}>
+        <Button className={styles.button} component={Link}>
+          <img src={JSicon} alt='JS'/>
+        </Button>
+      </Grid>
     </Container>
     
   </div>
