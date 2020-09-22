@@ -24,7 +24,7 @@
     color: $color-dark;
     font-family: $logo-font;
     text-align: center;
-    padding: 3rem;
+    padding: 2rem;
     letter-spacing: 2px;
     width: 100%;
     font-weight: 600;
@@ -36,7 +36,7 @@
   }
 
   .image {
-    width: 20vw;
+    width: 60%;
     height: 250px;
     line-height: 250px;
     border-radius: 50%;
@@ -55,18 +55,25 @@
       font-size: 30px;
       color: $color-dark;
       font-family: $logo-font;
-      margin: 4rem;
+      margin: 2rem;
       font-weight: 400;
   } 
   .button {
     width: 95%;
     display: flex;
     justify-content: center;
-    border-radius: 50%;
+    border-radius: 5%;
     img {
         object-fit: cover;
         overflow: hidden;
         height: 150px;
     }
+  }
+  .picture {
+      opacity: 1;
+      transition: 1s ease-in-out;
+      &:hover {
+          opacity: 0;
+      }
   }
 }
