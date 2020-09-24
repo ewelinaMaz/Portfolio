@@ -4,10 +4,13 @@ import { composeWithDevTools } from 'redux-devtools-extension';
 
 import { initialState } from './initialState';
 import { reducer as postsReducer } from './postsRedux';
-
+import { reducer as carrerReducer } from './carrerRedux';
+import { reducer as likeReducer } from './likeRedux';
 // define reducers
 const reducers = {
   posts: postsReducer,
+  carrer: carrerReducer,
+  like: likeReducer,
 };
 
 // add blank reducers for initial state properties without reducers
