@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Handlee&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Handlee&family=Raleway:wght@200&display=swap');
 
 $base-size: 12px;
 $logo-font: 'Handlee', cursive;
@@ -6,31 +6,4 @@ $color-light: #f1f2f6;
 $color-dark: #333333;
 $color-main: #BD1FDE;
 $color-secondary: #40DE1F;
-
-@mixin center {
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-}
-//Completely customizable
-//--
-$font-size: 40px;
-$letter-spacing: 0.0625em; //This counts for 1px on 16px font;
-$letter-count: 20; //Number of letters in text !important
-$transition-time: 3s; //Typing speed
-$bg-color: #eff5ed;
-$mask-color: #40DE1F; //Change it to see how this works :)
-$font-color: #152860;
-
-$letter-size: calc(1ch + #{$letter-spacing});
-$cursor-width: 1px; //Change this to $letter-size if you want Insert:active effect
-//--
-$cursor-blink-duration: $letter-count;
-$font-width: calc(#{$letter-count}ch + #{$letter-count}*#{$letter-spacing});
-
-*, *:after, *:before {
-	box-sizing: border-box;
-	margin: 0;
-	padding: 0;
-}
+$text-font: 'Raleway', sans-serif;
