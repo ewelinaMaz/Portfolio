@@ -25,7 +25,8 @@
     }
   }
     div button {
-      transition: 0.5s ease-in-out;
+      transition: 0.25s ease-in-out;
+      color: $color-main;
       &:hover {
         background-color: transparent;
         transform: scale(1.1,1.1);

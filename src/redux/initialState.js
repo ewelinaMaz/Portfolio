@@ -72,7 +72,7 @@ export const initialState = {
       {
         id: '1b',
         proffesion: 'Reliability engineer',
-        description: 'The next stage of my career was work at the Institute of Aviation in Warsaw. Analysing reports from aviation services and predicting failure of individual parts of aircraft engines and the cost of their repair has become my second life. Reality seemed to mock statistics and predictions at almost every time. The most interesting element of the work was training in the construction of aircraft engines.',
+        description: 'The next stage of my career was work at the Institute of Aviation in Warsaw. Analysing reports from aviation services and predicting failure of individual parts of aircraft engines and the cost of their repair has become my second life. The most interesting element of the work was training in the construction of aircraft engines and visit in engine service.',
         photo: 'https://i.postimg.cc/Y2PBSXgd/aircraft-2795557-1280.png',
       },
       {
@@ -80,6 +80,12 @@ export const initialState = {
         proffesion: 'Writer',
         description: 'When children appeared in my life, I discovered a new skill that became my passion. I started writing books and short stories, mainly for children. One of the fairy tales I wrote has been published. The next ones are waiting for their day, and so far I am writing and publishing short forms on the blog.',
         photo: 'https://i.postimg.cc/XYLt5xmG/typewriter-3711590-1280.jpg',
+      },
+      {
+        id: '1d',
+        proffesion: 'Front-end Developer',
+        description: 'Currently I finished intensive Fornt-end Developer course on Kodilla bootcamp. Learning there was based on practice (more practise, less theory) to know the most popular software languages and learn the best web development practise while working on the new projects. During 10 months of study, I wrote two individual projects and many projects under the guidance of a mentor. I also participated and finished with succes a group project in which a group of 7 people worked on the website of a furniture store for three weeks. Under the mentors supervision, the code was reviewed and finaly approved. ',
+        photo: 'https://cdn.pixabay.com/photo/2015/07/14/18/05/web-845168_1280.jpg',
       },
     ],
   },

@@ -10,7 +10,7 @@ const Component = ({ className, interests }) => (
   <div className={clsx(className, styles.root)}>
     {interests.map((interest) => (
       <Grid item xs={12} sm={6} md={4} className={styles.galleryItem} key={interest.name}>
-        <img src={interest.image} alt={interest.name} />
+        <img src={interest.image} alt={interest.name}/>
         <p className={styles.name}>{interest.name}</p>
       </Grid>
     ))}
