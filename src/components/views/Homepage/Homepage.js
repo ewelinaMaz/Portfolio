@@ -65,7 +65,11 @@ const Component = ({ className, projects}) => (
         <h1>Interests</h1>
       </Grid>
       <Interests/>
+      <footer className={styles.pageFooter}> 
+        <p>Made with ❤ by © Ewelina Mazurek</p> 
+      </footer>
     </Container>
+  
   </div>
 );
 

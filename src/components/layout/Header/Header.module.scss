@@ -21,7 +21,25 @@
     font-weight: 600;
     width: 60vw;
     &:hover {
-       opacity: 0.5;
+      opacity: 0.5;
+    }
+  }
+    div button {
+      transition: 0.5s ease-in-out;
+      &:hover {
+        background-color: transparent;
+        transform: scale(1.1,1.1);
+      }
+  }
+  a span .icon {
+    color: $color-main;
+  }
+  button span span {
+    font-size: 16px;
+  }
+  @media (max-width: 720px) {
+    .Header {
+      display: none;
     }
   }
 }

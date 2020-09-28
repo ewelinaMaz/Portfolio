@@ -12,10 +12,10 @@ const Component = ({ className, carrer}) => (
   <div className={clsx(className, styles.root)}>
     {carrer.map( c =>(
       <div className={styles.carrer} key={c.id}>
-        <Grid item md={12} lg={6} className={styles.carrerGrid}>
+        <Grid item sm={12} lg={6} className={styles.carrerGrid}>
           <img src={c.photo} alt={c.proffesion} className={styles.carrerPhoto}/>
         </Grid>
-        <Grid item md={12} lg={6} className={styles.carrerGrid}>
+        <Grid item sm={12} lg={6} className={styles.carrerGrid}>
           <h2 className={styles.carrerTitle}>{c.proffesion}</h2>
           <p className={styles.carrerText}>{c.description}</p>
         </Grid>

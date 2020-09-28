@@ -66,19 +66,19 @@ export const initialState = {
       {
         id: '1a',
         proffesion: 'Industrial engineer',
-        description: 'I started my professional career with an internship in the technical center of the BWI group in Krakow. Planning, analysis and organization of production processes are words that acquired a new meaning at that time. Farbyka in Krosno, to which I went on my weekly trips, dealt with the production of shock absorbers. During two years of work, I had the opportunity to get to know the realities of working in the production area and learn not only how to manage this area, but also the art of diplomacy :).',
+        description: 'My professional career started with an internship in the technical center of the BWI group in Krakow. Planning, analysis and organization of production processes are words that acquired a new meaning at that time. During two years of work, I had the opportunity to get to know the realities of working in the production area and learn not only how to manage this area, but also the art of diplomacy :).',
         photo: 'https://i.postimg.cc/ZKBrCG1X/automobile-4228723-1280.jpg',
       },
       {
         id: '1b',
         proffesion: 'Reliability engineer',
-        description: 'The next stage of my career was work at the Institute of Aviation in Warsaw. Browsing reports from aviation services and predicting failure of individual parts of aircraft engines and the cost of their repair has become my second life. Reality seemed to mock statistics and predictions at almost every turn, showing her who was in charge. The most interesting element of the work was training in the construction of aircraft engines.',
+        description: 'The next stage of my career was work at the Institute of Aviation in Warsaw. Analysing reports from aviation services and predicting failure of individual parts of aircraft engines and the cost of their repair has become my second life. Reality seemed to mock statistics and predictions at almost every time. The most interesting element of the work was training in the construction of aircraft engines.',
         photo: 'https://i.postimg.cc/Y2PBSXgd/aircraft-2795557-1280.png',
       },
       {
         id: '1c',
         proffesion: 'Writer',
-        description: 'When children appeared in my life, I discovered a new skill that became my passion. I started writing books and short stories, mainly for children. One of the fairy tales I wrote first has been published. The next ones are waiting for their day, and so far I am writing and publishing short forms on the blog.',
+        description: 'When children appeared in my life, I discovered a new skill that became my passion. I started writing books and short stories, mainly for children. One of the fairy tales I wrote has been published. The next ones are waiting for their day, and so far I am writing and publishing short forms on the blog.',
         photo: 'https://i.postimg.cc/XYLt5xmG/typewriter-3711590-1280.jpg',
       },
     ],
@@ -90,7 +90,7 @@ export const initialState = {
         image: 'https://i.postimg.cc/ydqZ5Hx3/leaves-1076307-340.png',
       },
       {
-        name: 'Trveling',
+        name: 'Traveling',
         image: 'https://i.postimg.cc/y628yPJW/journey-1130732-1280.png',
       },
       {
