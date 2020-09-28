@@ -1,7 +1,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import clsx from 'clsx';
-import {Carrer} from '../../common/Carrer/Carrer';
+import { Carrer } from '../../common/Carrer/Carrer';
+import { Interests } from '../../common/Interests/Interests';
 import Container from '@material-ui/core/Container';
 import Grid from '@material-ui/core/Grid';
 import Button from '@material-ui/core/Button';
@@ -63,6 +64,7 @@ const Component = ({ className, projects}) => (
       <Grid item xs={12}>
         <h1>Interests</h1>
       </Grid>
+      <Interests/>
     </Container>
   </div>
 );

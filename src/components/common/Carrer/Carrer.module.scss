@@ -1,15 +1,30 @@
 @import "../../../styles/settings.scss";
 
 .root {
+  *, *::before, *::after {
+    box-sizing: border-box;
+  }
   .carrer {
     display: flex;
     flex-direction: row;
     margin-top: 1rem;
+    background-image: linear-gradient(
+        to top right,
+        #E5E5EB 25%,
+        transparent
+      ),
+      radial-gradient(
+        circle at bottom right,
+        transparent 15%,
+        #ffe1e1 15%,
+        #ffe1e1 20%,
+        transparent 20%,
+        transparent 22%,
+        #ffe1e1 22%,
+        transparent 30%
+      );
     .carrerTitle {
       padding: 2px;
-    }
-    &:hover .carrerPhoto {
-      transform: translate(10px, 10px);
     }
     .carrerGrid {
       height: 400px;
@@ -17,11 +32,29 @@
       flex-direction: column;
       align-content: center;
       justify-content: center;
+      
+      
       .carrerPhoto {
         object-fit: cover;
         overflow: hidden;
         width: 95%;
-        transition: 1s all ease-in-out;
+        clip-path: polygon(
+          18.11% 16.5%,
+          50% 0%,
+          75% 50%,
+          54.09% 90.44%,
+          13.7% 63.94%
+        );
+        transition: clip-path 500ms ease-in-out;
+      }
+      .carrerPhoto::after{
+        display: block;
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        opacity: 0.3;
+        background-color: $color-dark;
       }
       .carrerText {
         text-align: center;
@@ -31,6 +64,9 @@
         opacity: 0.9;
         font-family: $text-font;
       }
+    }
+    &:hover .carrerPhoto{
+      clip-path: polygon(0% 0%, 100% 0%, 100% 50%, 100% 100%, 0% 100%);
     }
   }
 }

@@ -91,7 +91,7 @@ export const initialState = {
       },
       {
         name: 'Trveling',
-        image: 'https://i.postimg.cc/y628yPJW/journey-1130732-1280.pn',
+        image: 'https://i.postimg.cc/y628yPJW/journey-1130732-1280.png',
       },
       {
         name: 'Sports and mountains. This is it',
