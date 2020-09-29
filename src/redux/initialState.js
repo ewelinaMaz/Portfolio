@@ -92,15 +92,19 @@ export const initialState = {
   like: {
     data: [
       {
-        name: 'Reading',
+        name: 'Reading & Writing books',
         image: 'https://i.postimg.cc/ydqZ5Hx3/leaves-1076307-340.png',
+      },
+      {
+        name: 'Learn programming',
+        image: 'https://i.postimg.cc/9F8S38hY/manhattan-3866140-1280.jpg',
       },
       {
         name: 'Traveling',
         image: 'https://i.postimg.cc/y628yPJW/journey-1130732-1280.png',
       },
       {
-        name: 'Sports and mountains. This is it',
+        name: 'Sports and mountains',
         image: 'https://i.postimg.cc/gkfLrpyS/sport-562154-1280.jpg',
       },
       {
@@ -110,10 +114,6 @@ export const initialState = {
       {
         name: 'Cooking & eating of course :)',
         image: 'https://i.postimg.cc/kGMMB1Dg/shrimp-1209744-1280.png',
-      },
-      {
-        name: 'Learn programming',
-        image: 'https://i.postimg.cc/9F8S38hY/manhattan-3866140-1280.jpg',
       },
     ],
   },

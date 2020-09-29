@@ -11,7 +11,7 @@
     position: relative;
     &::before {
         position: absolute;
-        display: none;
+        display: block;
         content: "";
         left: 0;
         top: 0;
@@ -21,10 +21,10 @@
         opacity: 0.3;
       }
       &:hover::before {
-        display: block;
+        display: none;
       }
       &:hover .name {
-          display: block;
+          display: none;
       }
     img {
       height: 100%;
@@ -34,7 +34,7 @@
 }
     .name {
       position: absolute;
-      display: none;
+      display: block;
       width: 100%;
       top: 50%;
       background-color: transparentize($color: #000000, $amount: 0.8);
