@@ -66,13 +66,13 @@ export const initialState = {
       {
         id: '1a',
         proffesion: 'Industrial engineer',
-        description: 'My professional career started with an internship in the technical center of the BWI group in Krakow. Planning, analysis and organization of production processes are words that acquired a new meaning at that time. During two years of work, I had the opportunity to get to know the realities of working in the production area and learn not only how to manage this area, but also the art of diplomacy :).',
+        description: 'My professional career started with an internship in the technical center of the BWI group in Krakow. Planning, analysis, and organization of production processes are words that acquired a new meaning at that time. During two years of work, I had the opportunity to get to know the realities of working in the production area and learn not only how to manage this area, but also the art of diplomacy.',
         photo: 'https://i.postimg.cc/ZKBrCG1X/automobile-4228723-1280.jpg',
       },
       {
         id: '1b',
         proffesion: 'Reliability engineer',
-        description: 'The next stage of my career was work at the Institute of Aviation in Warsaw. Analysing reports from aviation services and predicting failure of individual parts of aircraft engines and the cost of their repair has become my second life. The most interesting element of the work was training in the construction of aircraft engines and visit in engine service.',
+        description: 'The next stage of my career was work at the Institute of Aviation in Warsaw. Analyzing reports from aviation services and predicting failure of individual parts of aircraft engines and the cost of their repair has become my second life. The most interesting element of the work was training in the construction of aircraft engines and visit in engine service.',
         photo: 'https://i.postimg.cc/Y2PBSXgd/aircraft-2795557-1280.png',
       },
       {
@@ -84,7 +84,7 @@ export const initialState = {
       {
         id: '1d',
         proffesion: 'Front-end Developer',
-        description: 'Currently I finished intensive Fornt-end Developer course on Kodilla bootcamp. Learning there was based on practice (more practise, less theory) to know the most popular software languages and learn the best web development practise while working on the new projects. During 10 months of study, I wrote two individual projects and many projects under the guidance of a mentor. I also participated and finished with succes a group project in which a group of 7 people worked on the website of a furniture store for three weeks. Under the mentors supervision, the code was reviewed and finaly approved. ',
+        description: 'Currently I finished the intensive Front-end Developer course on Kodilla Bootcamp. Learning there was based on practice (more practice, less theory) to know the most popular software languages and learn the best web development practice while working on the new projects. During 10 months of study, I wrote two individual projects and many projects under the guidance of a mentor. I also participated and finished with success a group project in which a group of 7 people worked on the website of a furniture store for three weeks. Under the mentors supervision, the code was reviewed and finally approved. ',
         photo: 'https://cdn.pixabay.com/photo/2015/07/14/18/05/web-845168_1280.jpg',
       },
     ],
